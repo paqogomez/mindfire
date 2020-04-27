@@ -1,3 +1,9 @@
+##An application to find earthquakes near you.  (I thought it was salient)
+
+###A simple application that takes your browser location and queries the USGS earthquake API, returns and formats the data
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
