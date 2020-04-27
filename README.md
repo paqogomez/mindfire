@@ -1,6 +1,6 @@
-##An application to find earthquakes near you.  (I thought it was salient)
+## An application to find earthquakes near you.  (I thought it was salient)
 
-###A simple application that takes your browser location and queries the USGS earthquake API, returns and formats the data
+### A simple application that takes your browser location and queries the USGS earthquake API, returns and formats the data
 
 
 
