@@ -39,7 +39,7 @@ class Earthquakes extends React.Component {
         );
     }
 
-    renderData(lat, long){        
+    fetchData(lat, long){        
         var url = `https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&minmagnitude=2.0&longitude=${long}&latitude=${lat}&maxradius=2`
         fetch(url)
             .then(res => res.json())
@@ -65,7 +65,7 @@ class Earthquakes extends React.Component {
     
     componentDidMount() {
         navigator.geolocation.getCurrentPosition(position => {
-            this.renderData(position.coords.latitude, position.coords.longitude)
+            this.fetchData(position.coords.latitude, position.coords.longitude)
         });
     }
 }
